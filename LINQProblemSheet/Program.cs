@@ -8,8 +8,11 @@ namespace LINQProblemSheet
 {
     class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
+            Problems problems = new Problems();
+            problems.ProblemOne();
+            problems.ProblemTwo();
         }
     }
 }
